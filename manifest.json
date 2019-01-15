@@ -1,0 +1,20 @@
+
+{
+  "name": "Counting-Hours",
+  "version": "1.0",
+  "description": "A plug in that counts down the 12 remianing years in the UN climate report",
+  "permissions": ["activeTab", "declarativeContent", "<all_urls>", "http://*/*", "https://*/*", "storage"],
+
+  "browser_action": {
+    "default_icon": "earth.png",
+   "default_title": "Counting the hours"
+ },
+
+"chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+
+ "permissions": ["activeTab"],
+
+ "manifest_version": 2
+}

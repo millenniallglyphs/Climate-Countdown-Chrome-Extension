@@ -1,0 +1,12 @@
+.big {
+  font-family: "PT Mono", monospace;
+}
+
+#count {
+  text-align: center;
+  font-size: 40px;
+}
+
+.timedown {
+  margin-top: 30vh;
+}
