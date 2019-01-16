@@ -16,9 +16,6 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
-  var hair = Math.floor(distance / (1000 * 60 * 60 * 24 * 60));
-  var meals = Math.floor(distance / (1000 * 60 * 60 * 8));
-  var steps = Math.floor(distance / (1000 * 60 * 60 * (24/7000)));
 
   //console.log(distance);
 
